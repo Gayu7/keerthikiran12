@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   int a = 1101;
+   int b = 1011;
+   int c = 1001;
+
+   int max;
+
+   if (a>b && a>c) {
+      max = a;
+   } else if (b>c) {
+      max = b;
+   } else {
+      max = c;
+   }
+   
+   cout << max << endl;
+}
